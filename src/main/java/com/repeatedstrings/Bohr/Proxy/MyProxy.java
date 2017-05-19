@@ -1,6 +1,6 @@
 package com.repeatedstrings.Bohr.Proxy;
 
-import com.repeatedstrings.Bohr.BohrRecipe.BohrishRecipeHandler;
+//import com.repeatedstrings.Bohr.BohrRecipe.BohrishRecipeHandler;
 import com.repeatedstrings.Bohr.Items.BohrishHandler;
 import com.repeatedstrings.BohrBlock.items.BohrBlockHandler;
 import com.repeatedstrings.BohrBlockGen.PlaceThatBohrBlock;
@@ -26,7 +26,7 @@ public class MyProxy {
     public void init() {
         BohrishHandler.registerRenders();
         BohrBlockHandler.registerRenders();
-        BohrishRecipeHandler.createBohrRecipe();
+//        BohrishRecipeHandler.createBohrRecipe();
     }
 
     public void postInit() {

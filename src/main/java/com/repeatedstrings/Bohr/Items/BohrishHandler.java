@@ -11,35 +11,40 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  */
 public class BohrishHandler {
     public static Item bohrOre;
-    public static BohrAxe bohrAxe;
+    public static Item bohrAxe;
+    public static Item bohrHoe;
+    public static Item bohrPickaxe;
+    public static Item bohrShovel;
+    public static Item bohrSword;
+
 
     public static void init() {
-        bohrOre = new BohrOre("bohr_ore", CreativeTabs.MATERIALS);
         bohrAxe = new BohrAxe("bohr_axe", MaterialHandler.BOHR, CreativeTabs.TOOLS);
-//        bohrHoe = new BohrOre("bohr_hoe", CreativeTabs.TOOLS);
-//        bohrPickaxe = new BohrOre("bohr_pickaxe", CreativeTabs.TOOLS);
-//        bohrShovel = new BohrOre("bohr_shovel", CreativeTabs.TOOLS);
-//        bohrSword = new BohrOre("bohr_sword", CreativeTabs.COMBAT);
+        bohrHoe = new BohrHoe("bohr_hoe", MaterialHandler.BOHR, CreativeTabs.TOOLS);
+        bohrOre = new BohrOre("bohr_ore", CreativeTabs.MATERIALS);
+        bohrPickaxe = new BohrPickAxe("bohr_pickaxe", MaterialHandler.BOHR, CreativeTabs.TOOLS);
+        bohrShovel = new BohrShovel("bohr_shovel",MaterialHandler.BOHR, CreativeTabs.TOOLS);
+        bohrSword = new BohrSword("bohr_sword", MaterialHandler.BOHR, CreativeTabs.COMBAT);
     }
 
     public static void register() {
-        GameRegistry.register(bohrOre);
         GameRegistry.register(bohrAxe);
-//        GameRegistry.register(bohrHoe);
-//        GameRegistry.register(bohrPickaxe);
-//        GameRegistry.register(bohrShovel);
-//        GameRegistry.register(bohrSword);
+        GameRegistry.register(bohrHoe);
+        GameRegistry.register(bohrOre);
+        GameRegistry.register(bohrPickaxe);
+        GameRegistry.register(bohrShovel);
+        GameRegistry.register(bohrSword);
 
     }
 
     // no item passed in here
     public static void registerRenders() {
-        registerRenders(bohrOre);
         registerRenders(bohrAxe);
-//        registerRenders(bohrHoe);
-//        registerRenders(bohrPickaxe);
-//        registerRenders(bohrShovel);
-//        registerRenders(bohrSword);
+        registerRenders(bohrHoe);
+        registerRenders(bohrOre);
+        registerRenders(bohrPickaxe);
+        registerRenders(bohrShovel);
+        registerRenders(bohrSword);
     }
 
     // an item here overloading
