@@ -19,7 +19,10 @@ public class BohrMod {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+
         myProxy.preInit();
+
+
     }
 
     @EventHandler
