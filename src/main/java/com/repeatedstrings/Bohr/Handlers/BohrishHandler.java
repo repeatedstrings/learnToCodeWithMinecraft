@@ -1,5 +1,7 @@
-package com.repeatedstrings.Bohr.Items;
+package com.repeatedstrings.Bohr.Handlers;
 
+import com.repeatedstrings.Bohr.Handlers.MaterialHandler;
+import com.repeatedstrings.Bohr.Items.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;

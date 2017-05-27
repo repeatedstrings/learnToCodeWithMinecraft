@@ -1,6 +1,6 @@
 package com.repeatedstrings.BohrBlock.items;
 
-import com.repeatedstrings.Bohr.Items.BohrishHandler;
+import com.repeatedstrings.Bohr.Handlers.BohrishHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;

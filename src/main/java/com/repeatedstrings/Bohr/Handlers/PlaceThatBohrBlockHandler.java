@@ -1,4 +1,4 @@
-package com.repeatedstrings.BohrBlockGen;
+package com.repeatedstrings.Bohr.Handlers;
 
 import com.repeatedstrings.BohrBlock.items.BohrBlock;
 import net.minecraft.block.Block;

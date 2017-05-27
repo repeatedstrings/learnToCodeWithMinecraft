@@ -1,17 +1,14 @@
-package com.repeatedstrings.BohrBlock.items;
+package com.repeatedstrings.Bohr.Handlers;
 
-import com.repeatedstrings.Bohr.Items.BohrishHandler;
+import com.repeatedstrings.BohrBlock.items.BohrBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-
-import java.util.Random;
 
 /**
  * Created by james on 5/8/17.
