@@ -1,7 +1,7 @@
 package com.repeatedstrings.Bohr;
 
 import com.repeatedstrings.Bohr.Config.Config;
-import com.repeatedstrings.Bohr.Proxy.MyProxy;
+import com.repeatedstrings.Bohr.StartLine.ReadySetGo;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -15,24 +15,21 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid= Config.MODID, name=Config.NAME, version=Config.VERSION)
 public class BohrMod {
     @SidedProxy(clientSide = Config.CLIENT_PROXY, serverSide = Config.SERVER_PROXY)
-    public static MyProxy myProxy;
+    public static ReadySetGo readySetGo;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-
-        myProxy.preInit();
-
-
+        readySetGo.preInit();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        myProxy.init();
+        readySetGo.init();
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-        myProxy.postInit();
+        readySetGo.postInit();
     }
 
 }
