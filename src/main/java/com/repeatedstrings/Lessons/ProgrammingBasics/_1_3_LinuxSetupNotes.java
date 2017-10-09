@@ -50,7 +50,7 @@ public class _1_3_LinuxSetupNotes {
 
             for git import:
                 select vcs top menu
-                
+
 
 
 
