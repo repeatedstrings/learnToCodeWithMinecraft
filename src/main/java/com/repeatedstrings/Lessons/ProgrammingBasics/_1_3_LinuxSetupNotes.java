@@ -8,8 +8,10 @@ public class _1_3_LinuxSetupNotes {
         items to download:
             intellij -> https://www.jetbrains.com/idea/download/#section=linux
                 Community edition
+            Gradle -> https://gradle.org/releases/
             minecraft forge (version 1.11.3) -> https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.11.2.html
                 mdk, not the installer, universal, etc.
+            Sign up for account with GitHub.com -source code storage.
 
         items to install:
             java ->
@@ -49,8 +51,11 @@ public class _1_3_LinuxSetupNotes {
                               run genIntellijRuns
 
             for git import:
-                select vcs top menu
+                File -> New -> Project From Version Control -> GitHub -> sign in using password
+                clone this: https://github.com/repeatedstrings/learnToCodeWithMinecraft.git
 
+
+ // testrepeatedstrings
 
 
 
