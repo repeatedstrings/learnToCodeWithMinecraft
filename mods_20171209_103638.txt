@@ -1,0 +1,6 @@
+WARNING - 10:36:39: Creating types 
+WARNING - 10:36:39: Initializing types
+WARNING - 10:36:44: Generic post-process : Creating usages and associations
+WARNING - 10:36:44: Generic post-process : Creating activities
+WARNING - 10:36:44: Saving uml file /resource/mods/src/main/mods.uml
+WARNING - 10:36:44: Uml file /resource/mods/src/main/mods.uml saved

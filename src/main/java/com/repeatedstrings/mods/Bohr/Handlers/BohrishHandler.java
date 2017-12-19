@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  */
 public class BohrishHandler {
     public static Item bohrOre;
+    public static Item bohrite;
     public static Item bohrAxe;
     public static Item bohrHoe;
     public static Item bohrPickaxe;
@@ -23,6 +24,7 @@ public class BohrishHandler {
         bohrAxe = new BohrAxe("bohr_axe", MaterialHandler.BOHR, CreativeTabs.TOOLS);
         bohrHoe = new BohrHoe("bohr_hoe", MaterialHandler.BOHR, CreativeTabs.TOOLS);
         bohrOre = new BohrOre("bohr_ore", CreativeTabs.MATERIALS);
+        bohrite = new Bohrite("bohrite", CreativeTabs.MATERIALS);
         bohrPickaxe = new BohrPickAxe("bohr_pickaxe", MaterialHandler.BOHR, CreativeTabs.TOOLS);
         bohrShovel = new BohrShovel("bohr_shovel",MaterialHandler.BOHR, CreativeTabs.TOOLS);
         bohrSword = new BohrSword("bohr_sword", MaterialHandler.BOHR, CreativeTabs.COMBAT);
@@ -32,6 +34,7 @@ public class BohrishHandler {
         GameRegistry.register(bohrAxe);
         GameRegistry.register(bohrHoe);
         GameRegistry.register(bohrOre);
+        GameRegistry.register(bohrite);
         GameRegistry.register(bohrPickaxe);
         GameRegistry.register(bohrShovel);
         GameRegistry.register(bohrSword);
@@ -43,6 +46,7 @@ public class BohrishHandler {
         registerRenders(bohrAxe);
         registerRenders(bohrHoe);
         registerRenders(bohrOre);
+        registerRenders(bohrite);
         registerRenders(bohrPickaxe);
         registerRenders(bohrShovel);
         registerRenders(bohrSword);

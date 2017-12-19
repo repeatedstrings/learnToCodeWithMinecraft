@@ -16,40 +16,41 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class BohrishRecipeHandler {
 
     public static void init() {
+        GameRegistry.addSmelting(BohrishHandler.bohrOre, new ItemStack(BohrishHandler.bohrite), 1);
 
         GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrPickaxe,1),
                 "XXX",
                 " Y ",
                 " Y ",
-                'X', BohrishHandler.bohrOre,
+                'X', BohrishHandler.bohrite,
                 'Y', Items.STICK);
 
         GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrShovel,1),
                 " X ",
                 " Y ",
                 " Y ",
-                'X', BohrishHandler.bohrOre,
+                'X', BohrishHandler.bohrite,
                 'Y', Items.STICK);
 
         GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrHoe,1),
                 "XX ",
                 " Y ",
                 " Y ",
-                'X', BohrishHandler.bohrOre,
+                'X', BohrishHandler.bohrite,
                 'Y', Items.STICK);
 
         GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrAxe,1),
                 "XX ",
                 "XY ",
                 " Y ",
-                'X', BohrishHandler.bohrOre,
+                'X', BohrishHandler.bohrite,
                 'Y', Items.STICK);
 
         GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrSword,1),
                 " X ",
                 " X ",
                 " Y ",
-                'X', BohrishHandler.bohrOre,
+                'X', BohrishHandler.bohrite,
                 'Y', Items.STICK);
     }
 }

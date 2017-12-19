@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ITSCMNz_EeeDr98zeVYnFw" name="mods">
+  <elementImport xmi:id="_IXSYcNz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_IXSYcdz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_IXSYctz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_IXSYc9z_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_IXSYdNz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_IXS_gNz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_IXS_gdz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_IXS_gtz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_IXS_g9z_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_IXS_hNz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_IXS_hdz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_IXS_htz_EeeDr98zeVYnFw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <packageImport xmi:id="_IW9BQNz_EeeDr98zeVYnFw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_IW_dgNz_EeeDr98zeVYnFw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IY3s0Nz_EeeDr98zeVYnFw" name="com">
+    <packagedElement xmi:type="uml:Package" xmi:id="_IY3s0dz_EeeDr98zeVYnFw" name="repeatedstrings">
+      <packagedElement xmi:type="uml:Package" xmi:id="_IY3s0tz_EeeDr98zeVYnFw" name="mods">
+        <packagedElement xmi:type="uml:Package" xmi:id="_IY3s09z_EeeDr98zeVYnFw" name="Bohr">
+          <packagedElement xmi:type="uml:Package" xmi:id="_IakV8Nz_EeeDr98zeVYnFw" name="Config">
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_IaonYNz_EeeDr98zeVYnFw" name="Config" visibility="public">
+              <eAnnotations xmi:id="_IapOcNz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IapOcdz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/6/17.&#xA;"/>
+              </eAnnotations>
+              <ownedLiteral xmi:id="_IekFINz_EeeDr98zeVYnFw" name="SERVER">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_IeksMNz_EeeDr98zeVYnFw"/>
+              </ownedLiteral>
+              <ownedLiteral xmi:id="_IeksMdz_EeeDr98zeVYnFw" name="MODID">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_IeksMtz_EeeDr98zeVYnFw"/>
+              </ownedLiteral>
+              <ownedLiteral xmi:id="_IeksM9z_EeeDr98zeVYnFw" name="VERSION">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_IelTQNz_EeeDr98zeVYnFw"/>
+              </ownedLiteral>
+              <ownedLiteral xmi:id="_IelTQdz_EeeDr98zeVYnFw" name="NAME">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_IelTQtz_EeeDr98zeVYnFw"/>
+              </ownedLiteral>
+              <ownedLiteral xmi:id="_IelTQ9z_EeeDr98zeVYnFw" name="CLIENT_PROXY">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_IelTRNz_EeeDr98zeVYnFw"/>
+              </ownedLiteral>
+              <ownedLiteral xmi:id="_IelTRdz_EeeDr98zeVYnFw" name="SERVER_PROXY">
+                <specification xmi:type="uml:LiteralInteger" xmi:id="_IelTRtz_EeeDr98zeVYnFw"/>
+              </ownedLiteral>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_IajH0Nz_EeeDr98zeVYnFw" name="BohrMod" visibility="public">
+            <eAnnotations xmi:id="_Iaju4Nz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+              <details xmi:id="_Iaju4dz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/6/17.&#xA;"/>
+            </eAnnotations>
+            <elementImport xmi:id="_IcbXINz_EeeDr98zeVYnFw" importedElement="_IaonYNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_Icb-MNz_EeeDr98zeVYnFw" importedElement="_Ia1bsNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_Icb-Mdz_EeeDr98zeVYnFw" importedElement="_Ia6UMNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_Icb-Mtz_EeeDr98zeVYnFw" importedElement="_IavVENz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_Icb-M9z_EeeDr98zeVYnFw" importedElement="_Ia338Nz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_Icb-NNz_EeeDr98zeVYnFw" importedElement="_IbPrYNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IcdzZdz_EeeDr98zeVYnFw" importedElement="_IcdzZNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IcfBgNz_EeeDr98zeVYnFw" importedElement="_IceacNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IcfokNz_EeeDr98zeVYnFw" importedElement="_IcfBgtz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_Icfoktz_EeeDr98zeVYnFw" importedElement="_Icfokdz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IcgPodz_EeeDr98zeVYnFw" importedElement="_IcgPoNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_Icg2stz_EeeDr98zeVYnFw" importedElement="_Icg2sdz_EeeDr98zeVYnFw" visibility="private"/>
+            <ownedOperation xmi:id="_Idcq0Nz_EeeDr98zeVYnFw" name="preInit" visibility="public">
+              <ownedParameter xmi:id="_Idcq0dz_EeeDr98zeVYnFw" name="event" type="_IcgPoNz_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Id9BINz_EeeDr98zeVYnFw" name="init" visibility="public">
+              <ownedParameter xmi:id="_Id9BIdz_EeeDr98zeVYnFw" name="event" type="_IcfBgtz_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Ied-gNz_EeeDr98zeVYnFw" name="postInit" visibility="public">
+              <ownedParameter xmi:id="_Ied-gdz_EeeDr98zeVYnFw" name="event" type="_Icfokdz_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_IapOctz_EeeDr98zeVYnFw" name="Handlers">
+            <packagedElement xmi:type="uml:Class" xmi:id="_IasRwNz_EeeDr98zeVYnFw" name="MaterialHandler" visibility="public">
+              <eAnnotations xmi:id="_IasRwdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IasRwtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/18/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_Ie4OM9z_EeeDr98zeVYnFw" importedElement="_Ie4OMtz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ie41Q9z_EeeDr98zeVYnFw" importedElement="_Ie41Qtz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ie41Rtz_EeeDr98zeVYnFw" importedElement="_Ie41Rdz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ie5cU9z_EeeDr98zeVYnFw" importedElement="_Ie5cUtz_EeeDr98zeVYnFw" visibility="private"/>
+              <ownedAttribute xmi:id="_IfCmQNz_EeeDr98zeVYnFw" name="BOHR_ARMOR" visibility="public" isLeaf="true" isStatic="true" type="_Ie41Rdz_EeeDr98zeVYnFw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_IfD0YNz_EeeDr98zeVYnFw" name="" type="_Ie41Rdz_EeeDr98zeVYnFw" value="null;&#xA;    public static final ArmorMaterial BOHR_ARMOR = EnumHelper.addArmorMaterial(&quot;bohr armor&quot;,&#xA;        &quot;bohr:bohr_armor&quot;, 1500, new int[]{3, 5, 4, 2}, 10,&#xA;        SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 8F)"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_IfM-UNz_EeeDr98zeVYnFw" name="BOHR" visibility="public" isStatic="true" type="_Ie41Qtz_EeeDr98zeVYnFw">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_IfM-Udz_EeeDr98zeVYnFw" name="" type="_Ie41Qtz_EeeDr98zeVYnFw" value="EnumHelper.addToolMaterial(&#xA;                &quot;bohr material&quot;, 3, 2500, 4F, 4F, 16)"/>
+              </ownedAttribute>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IavVENz_EeeDr98zeVYnFw" name="BohrishHandler" visibility="public">
+              <eAnnotations xmi:id="_IavVEdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IavVEtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/6/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_IfaZs9z_EeeDr98zeVYnFw" importedElement="_IfaZstz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IfbAxNz_EeeDr98zeVYnFw" importedElement="_IfbAw9z_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ifbn0tz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ifbn1Nz_EeeDr98zeVYnFw" importedElement="_Ifbn09z_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ifbn1dz_EeeDr98zeVYnFw" importedElement="_Icg2sdz_EeeDr98zeVYnFw" visibility="private"/>
+              <packageImport xmi:id="_IfaZsNz_EeeDr98zeVYnFw" importedPackage="_Ia6UM9z_EeeDr98zeVYnFw" visibility="private"/>
+              <ownedAttribute xmi:id="_IfjjoNz_EeeDr98zeVYnFw" name="bohrOre" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_IfstkNz_EeeDr98zeVYnFw" name="bohrite" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_If0pYNz_EeeDr98zeVYnFw" name="bohrAxe" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_If8lMNz_EeeDr98zeVYnFw" name="bohrHoe" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_IgFIENz_EeeDr98zeVYnFw" name="bohrPickaxe" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_IgMc0Nz_EeeDr98zeVYnFw" name="bohrShovel" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_IgU_sNz_EeeDr98zeVYnFw" name="bohrSword" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_IgfXwNz_EeeDr98zeVYnFw" name="init" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_IguBQNz_EeeDr98zeVYnFw" name="register" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_Ig8DsNz_EeeDr98zeVYnFw" name="registerRenders" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_IhYvoNz_EeeDr98zeVYnFw" name="registerRenders" visibility="public" isStatic="true">
+                <ownedParameter xmi:id="_IhYvodz_EeeDr98zeVYnFw" name="item" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IawjMNz_EeeDr98zeVYnFw" name="PlaceThatBohrBlockHandler" visibility="public">
+              <eAnnotations xmi:id="_IawjMdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IawjMtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/13/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_Ihlj8tz_EeeDr98zeVYnFw" importedElement="_Ihlj8dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IhmyENz_EeeDr98zeVYnFw" importedElement="_IhmLANz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IhmyEdz_EeeDr98zeVYnFw" importedElement="_Icg2sdz_EeeDr98zeVYnFw" visibility="private"/>
+              <ownedAttribute xmi:id="_IhsRoNz_EeeDr98zeVYnFw" name="bohrBlock" visibility="public" isStatic="true" type="_Ihlj8dz_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_IhxxMNz_EeeDr98zeVYnFw" name="aBohrBlock" visibility="public" isStatic="true" type="_IhmLANz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_Ih6UENz_EeeDr98zeVYnFw" name="register" visibility="public" isStatic="true"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Ia1bsNz_EeeDr98zeVYnFw" name="BohrBlockHandler" visibility="public">
+              <eAnnotations xmi:id="_Ia1bsdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_Ia1bstz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/8/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_IiNPANz_EeeDr98zeVYnFw" importedElement="_IbXAINz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiNPAdz_EeeDr98zeVYnFw" importedElement="_Ihlj8dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiN2Edz_EeeDr98zeVYnFw" importedElement="_IiN2ENz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiN2Etz_EeeDr98zeVYnFw" importedElement="_IfaZstz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiN2E9z_EeeDr98zeVYnFw" importedElement="_IfbAw9z_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiN2FNz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiN2Fdz_EeeDr98zeVYnFw" importedElement="_Ifbn09z_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiOdINz_EeeDr98zeVYnFw" importedElement="_IhmLANz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IiOdIdz_EeeDr98zeVYnFw" importedElement="_Icg2sdz_EeeDr98zeVYnFw" visibility="private"/>
+              <ownedAttribute xmi:id="_Iib4gNz_EeeDr98zeVYnFw" name="bohrBlock" visibility="public" isStatic="true" type="_Ihlj8dz_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_IipT4Nz_EeeDr98zeVYnFw" name="aBohrBlock" visibility="public" isStatic="true" type="_IhmLANz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_Ii8O0Nz_EeeDr98zeVYnFw" name="init" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_IjXFkNz_EeeDr98zeVYnFw" name="register" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_Ij4qANz_EeeDr98zeVYnFw" name="registerRenders" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_IkqGENz_EeeDr98zeVYnFw" name="registerRenders" visibility="public" isStatic="true">
+                <ownedParameter xmi:id="_IkqGEdz_EeeDr98zeVYnFw" name="aBlock" type="_Ihlj8dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Ia338Nz_EeeDr98zeVYnFw" name="BohrishRecipeHandler" visibility="public">
+              <eAnnotations xmi:id="_Ia338dz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_Ia338tz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/16/17.&#xA; issues: another stringindexout of bounds, 8.. I added ammount:1, didn't fix&#xA; commented out to pickaxe, pickaxe works&#xA; it was sword, i had &quot;X &quot; --> didn't have &quot; X &quot;&#xA; array count from 0, so 9 slots, it didn't have enough slots.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_Ikz3Edz_EeeDr98zeVYnFw" importedElement="_Ikz3ENz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ik0eIdz_EeeDr98zeVYnFw" importedElement="_Ik0eINz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ik0eItz_EeeDr98zeVYnFw" importedElement="_Icg2sdz_EeeDr98zeVYnFw" visibility="private"/>
+              <ownedOperation xmi:id="_Ik7y4Nz_EeeDr98zeVYnFw" name="init" visibility="public" isStatic="true"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Ia6UMNz_EeeDr98zeVYnFw" name="BohrishArmorHandler" visibility="public">
+              <eAnnotations xmi:id="_Ia6UMdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_Ia6UMtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/19/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_IlVbgNz_EeeDr98zeVYnFw" importedElement="_IbBB4Nz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IlVbgdz_EeeDr98zeVYnFw" importedElement="_IfaZstz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IlVbgtz_EeeDr98zeVYnFw" importedElement="_IfbAw9z_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IlVbg9z_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IlWCktz_EeeDr98zeVYnFw" importedElement="_IlWCkdz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IlWCk9z_EeeDr98zeVYnFw" importedElement="_Ifbn09z_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IlWpoNz_EeeDr98zeVYnFw" importedElement="_Icg2sdz_EeeDr98zeVYnFw" visibility="private"/>
+              <ownedAttribute xmi:id="_IlhowNz_EeeDr98zeVYnFw" name="bohrHelm" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_IltO8Nz_EeeDr98zeVYnFw" name="bohrChest" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_Il41INz_EeeDr98zeVYnFw" name="bohrLegs" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedAttribute xmi:id="_ImFCYNz_EeeDr98zeVYnFw" name="bohrFeet" visibility="public" isStatic="true" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_ImTr4Nz_EeeDr98zeVYnFw" name="init" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_Iml_wNz_EeeDr98zeVYnFw" name="register" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_Im3skNz_EeeDr98zeVYnFw" name="registerRenders" visibility="public" isStatic="true"/>
+              <ownedOperation xmi:id="_InZRANz_EeeDr98zeVYnFw" name="registerRenders" visibility="public" isStatic="true">
+                <ownedParameter xmi:id="_InZRAdz_EeeDr98zeVYnFw" name="item" type="_Ifbn09z_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHBzUNz_EeeDr98zeVYnFw" name="Handlers_init" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ie4OMdz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHBzUdz_EeeDr98zeVYnFw" name="Handlers_Item" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ie41Qdz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHCaYNz_EeeDr98zeVYnFw" name="Handlers_ItemArmor" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ie41RNz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHCaYdz_EeeDr98zeVYnFw" name="Handlers_util" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ie5cUdz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHCaYtz_EeeDr98zeVYnFw" name="Handlers_Items" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ia6UM9z_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHDBcNz_EeeDr98zeVYnFw" name="Handlers_client" client="_IapOctz_EeeDr98zeVYnFw" supplier="_IfaZsdz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHDBcdz_EeeDr98zeVYnFw" name="Handlers_model" client="_IapOctz_EeeDr98zeVYnFw" supplier="_IfbAwtz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHDBctz_EeeDr98zeVYnFw" name="Handlers_creativetab" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ifbn0Nz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHDBc9z_EeeDr98zeVYnFw" name="Handlers_item" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ie41QNz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHDogNz_EeeDr98zeVYnFw" name="Handlers_registry" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Icg2sNz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHDogdz_EeeDr98zeVYnFw" name="Handlers_block" client="_IapOctz_EeeDr98zeVYnFw" supplier="_Ihlj8Nz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHDogtz_EeeDr98zeVYnFw" name="Handlers_items" client="_IapOctz_EeeDr98zeVYnFw" supplier="_IbUj49z_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHEPkNz_EeeDr98zeVYnFw" name="Handlers_material" client="_IapOctz_EeeDr98zeVYnFw" supplier="_IiNPAtz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHEPkdz_EeeDr98zeVYnFw" name="Handlers_inventory" client="_IapOctz_EeeDr98zeVYnFw" supplier="_IlWCkNz_EeeDr98zeVYnFw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Ia6UM9z_EeeDr98zeVYnFw" name="Items">
+            <packagedElement xmi:type="uml:Class" xmi:id="_Ia8JYNz_EeeDr98zeVYnFw" name="BohrPickAxe" visibility="public">
+              <eAnnotations xmi:id="_Ia8JYdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_Ia8JYtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/19/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_InmFUtz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_InmFU9z_EeeDr98zeVYnFw" importedElement="_InmFUNz_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_InmFUdz_EeeDr98zeVYnFw" general="_InmFUNz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_IoBjINz_EeeDr98zeVYnFw" name="BohrPickAxe" visibility="public">
+                <ownedParameter xmi:id="_IoBjIdz_EeeDr98zeVYnFw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_IoBjItz_EeeDr98zeVYnFw" name="mat" type="_Inrk4Nz_EeeDr98zeVYnFw"/>
+                <ownedParameter xmi:id="_IoBjI9z_EeeDr98zeVYnFw" name="tab" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Ia9-kNz_EeeDr98zeVYnFw" name="BohrSword" visibility="public">
+              <eAnnotations xmi:id="_Ia9-kdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_Ia9-ktz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/19/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_IoPlkdz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IoPlktz_EeeDr98zeVYnFw" importedElement="_IoO-gNz_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_IoPlkNz_EeeDr98zeVYnFw" general="_IoO-gNz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_IomK4Nz_EeeDr98zeVYnFw" name="BohrSword" visibility="public">
+                <ownedParameter xmi:id="_IomK4dz_EeeDr98zeVYnFw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_IomK4tz_EeeDr98zeVYnFw" name="mat" type="_Inrk4Nz_EeeDr98zeVYnFw"/>
+                <ownedParameter xmi:id="_IomK49z_EeeDr98zeVYnFw" name="tab" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Ia_MsNz_EeeDr98zeVYnFw" name="Bohrite" visibility="public">
+              <elementImport xmi:id="_IoxKANz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IoxKAdz_EeeDr98zeVYnFw" importedElement="_Ifbn09z_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_Iowi8Nz_EeeDr98zeVYnFw" general="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_Io8JINz_EeeDr98zeVYnFw" name="Bohrite" visibility="public">
+                <ownedParameter xmi:id="_Io8JIdz_EeeDr98zeVYnFw" name="bohrite">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Io8JItz_EeeDr98zeVYnFw" name="materials" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IbBB4Nz_EeeDr98zeVYnFw" name="BohrArmor" visibility="public">
+              <eAnnotations xmi:id="_IbBB4dz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IbBB4tz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/19/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_IpJkgtz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IpJkg9z_EeeDr98zeVYnFw" importedElement="_IlWCkdz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IpJkhNz_EeeDr98zeVYnFw" importedElement="_IpJkgNz_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_IpJkgdz_EeeDr98zeVYnFw" general="_IpJkgNz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_IptlMNz_EeeDr98zeVYnFw" name="BohrArmor" visibility="public">
+                <ownedParameter xmi:id="_IptlMdz_EeeDr98zeVYnFw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_IptlMtz_EeeDr98zeVYnFw" name="tab" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+                <ownedParameter xmi:id="_IptlM9z_EeeDr98zeVYnFw" name="mat" type="_IpVxwNz_EeeDr98zeVYnFw"/>
+                <ownedParameter xmi:id="_IptlNNz_EeeDr98zeVYnFw" name="renderIndexIn">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_IptlNdz_EeeDr98zeVYnFw" name="equipmentSlotIn" type="_IlWCkdz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IbCQANz_EeeDr98zeVYnFw" name="BohrAxe" visibility="public">
+              <eAnnotations xmi:id="_IbCQAdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IbCQAtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/18/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_Ip5yctz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Ip5yc9z_EeeDr98zeVYnFw" importedElement="_Ip5ycNz_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_Ip5ycdz_EeeDr98zeVYnFw" general="_Ip5ycNz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_IqPwsNz_EeeDr98zeVYnFw" name="BohrAxe" visibility="public">
+                <ownedParameter xmi:id="_IqPwsdz_EeeDr98zeVYnFw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_IqPwstz_EeeDr98zeVYnFw" name="mat" type="_Inrk4Nz_EeeDr98zeVYnFw"/>
+                <ownedParameter xmi:id="_IqPws9z_EeeDr98zeVYnFw" name="tab" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IbEFMNz_EeeDr98zeVYnFw" name="BohrOre" visibility="public">
+              <eAnnotations xmi:id="_IbEFMdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IbEFMtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/6/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_IqaIwNz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IqaIwdz_EeeDr98zeVYnFw" importedElement="_Ifbn09z_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_IqZhsNz_EeeDr98zeVYnFw" general="_Ifbn09z_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_Iqlu8Nz_EeeDr98zeVYnFw" name="BohrOre" visibility="public">
+                <ownedParameter xmi:id="_Iqlu8dz_EeeDr98zeVYnFw" name="bohr_ore">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_Iqlu8tz_EeeDr98zeVYnFw" name="materials" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IbFTUNz_EeeDr98zeVYnFw" name="BohrShovel" visibility="public">
+              <eAnnotations xmi:id="_IbFTUdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IbFTUtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/19/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_Iqx8MNz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_Iqx8Mdz_EeeDr98zeVYnFw" importedElement="_IqxVINz_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_IqxVIdz_EeeDr98zeVYnFw" general="_IqxVINz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_IrJIkNz_EeeDr98zeVYnFw" name="BohrShovel" visibility="public">
+                <ownedParameter xmi:id="_IrJIkdz_EeeDr98zeVYnFw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_IrJIktz_EeeDr98zeVYnFw" name="mat" type="_Inrk4Nz_EeeDr98zeVYnFw"/>
+                <ownedParameter xmi:id="_IrJIk9z_EeeDr98zeVYnFw" name="tab" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_IbGhcNz_EeeDr98zeVYnFw" name="BohrHoe" visibility="public">
+              <eAnnotations xmi:id="_IbGhcdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_IbGhctz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/19/17.&#xA;"/>
+              </eAnnotations>
+              <elementImport xmi:id="_IrVV0tz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+              <elementImport xmi:id="_IrVV09z_EeeDr98zeVYnFw" importedElement="_IrVV0Nz_EeeDr98zeVYnFw" visibility="private"/>
+              <generalization xmi:id="_IrVV0dz_EeeDr98zeVYnFw" general="_IrVV0Nz_EeeDr98zeVYnFw"/>
+              <ownedOperation xmi:id="_IrqF8Nz_EeeDr98zeVYnFw" name="BohrHoe" visibility="public">
+                <ownedParameter xmi:id="_IrqF8dz_EeeDr98zeVYnFw" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_IrqF8tz_EeeDr98zeVYnFw" name="mat" type="_Inrk4Nz_EeeDr98zeVYnFw"/>
+                <ownedParameter xmi:id="_IrqF89z_EeeDr98zeVYnFw" name="tab" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHFdsNz_EeeDr98zeVYnFw" name="Items_creativetab" client="_Ia6UM9z_EeeDr98zeVYnFw" supplier="_Ifbn0Nz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHFdsdz_EeeDr98zeVYnFw" name="Items_item" client="_Ia6UM9z_EeeDr98zeVYnFw" supplier="_Ie41QNz_EeeDr98zeVYnFw"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_JHGEwNz_EeeDr98zeVYnFw" name="Items_inventory" client="_Ia6UM9z_EeeDr98zeVYnFw" supplier="_IlWCkNz_EeeDr98zeVYnFw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JG_XENz_EeeDr98zeVYnFw" name="Bohr_Config" client="_IY3s09z_EeeDr98zeVYnFw" supplier="_IakV8Nz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JG_-INz_EeeDr98zeVYnFw" name="Bohr_Handlers" client="_IY3s09z_EeeDr98zeVYnFw" supplier="_IapOctz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHAlMNz_EeeDr98zeVYnFw" name="Bohr_BohrBlockGen" client="_IY3s09z_EeeDr98zeVYnFw" supplier="_IbHIgNz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHAlMdz_EeeDr98zeVYnFw" name="Bohr_common" client="_IY3s09z_EeeDr98zeVYnFw" supplier="_IcdzY9z_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHAlMtz_EeeDr98zeVYnFw" name="Bohr_event" client="_IY3s09z_EeeDr98zeVYnFw" supplier="_IcfBgdz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHBMQNz_EeeDr98zeVYnFw" name="Bohr_registry" client="_IY3s09z_EeeDr98zeVYnFw" supplier="_Icg2sNz_EeeDr98zeVYnFw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IbHIgNz_EeeDr98zeVYnFw" name="BohrBlockGen">
+          <packagedElement xmi:type="uml:Class" xmi:id="_IbPrYNz_EeeDr98zeVYnFw" name="PlaceThatBohrBlock" visibility="public">
+            <eAnnotations xmi:id="_IbPrYdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+              <details xmi:id="_IbPrYtz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/13/17.&#xA;"/>
+            </eAnnotations>
+            <elementImport xmi:id="_IsLDVNz_EeeDr98zeVYnFw" importedElement="_IsLDU9z_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsLDVdz_EeeDr98zeVYnFw" importedElement="_Ia1bsNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsLqYtz_EeeDr98zeVYnFw" importedElement="_IsLqYdz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsMRctz_EeeDr98zeVYnFw" importedElement="_IsMRcdz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsMRdNz_EeeDr98zeVYnFw" importedElement="_IsMRc9z_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsM4g9z_EeeDr98zeVYnFw" importedElement="_IsM4gtz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsM4htz_EeeDr98zeVYnFw" importedElement="_IsM4hdz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsM4idz_EeeDr98zeVYnFw" importedElement="_IsM4iNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsNfkdz_EeeDr98zeVYnFw" importedElement="_IsNfkNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsNfldz_EeeDr98zeVYnFw" importedElement="_IsNflNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsNfltz_EeeDr98zeVYnFw" importedElement="_IsKcQNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_IsOGo9z_EeeDr98zeVYnFw" importedElement="_IsOGotz_EeeDr98zeVYnFw" visibility="private"/>
+            <ownedOperation xmi:id="_ItstUNz_EeeDr98zeVYnFw" name="generate" visibility="public">
+              <eAnnotations xmi:id="_ItstUdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_ItstUtz_EeeDr98zeVYnFw" key="documentation" value=" Generate some world&#xA; @param random the chunk specific {@link Random}.&#xA; @param chunkX the chunk X coordinate of this chunk.&#xA; @param chunkZ the chunk Z coordinate of this chunk.&#xA; @param world : additionalData[0] The minecraft {@link World} we're generating for.&#xA; @param chunkGenerator : additionalData[1] The {@link IChunkProvider} that is generating.&#xA; @param chunkProvider : additionalData[2] {@link IChunkProvider} that is requesting the world generation.&#xA; "/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_ItstU9z_EeeDr98zeVYnFw" name="random" type="_IsOGotz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_ItstVNz_EeeDr98zeVYnFw" name="chunkX">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ItstVdz_EeeDr98zeVYnFw" name="chunkZ">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ItstVtz_EeeDr98zeVYnFw" name="world" type="_IsM4hdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_ItstV9z_EeeDr98zeVYnFw" name="chunkGenerator" type="_IsM4iNz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_ItstWNz_EeeDr98zeVYnFw" name="chunkProvider" type="_IsNfkNz_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_IuohcNz_EeeDr98zeVYnFw" name="genSurface" visibility="private">
+              <ownedParameter xmi:id="_Iuohcdz_EeeDr98zeVYnFw" name="world" type="_IsM4hdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_Iuohctz_EeeDr98zeVYnFw" name="random" type="_IsOGotz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_Iuohc9z_EeeDr98zeVYnFw" name="chunkX">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_IuohdNz_EeeDr98zeVYnFw" name="chunkZ">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_IxpZMNz_EeeDr98zeVYnFw" name="genNether" visibility="private">
+              <ownedParameter xmi:id="_IxpZMdz_EeeDr98zeVYnFw" name="world" type="_IsM4hdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_IxpZMtz_EeeDr98zeVYnFw" name="random" type="_IsOGotz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_IxpZM9z_EeeDr98zeVYnFw" name="chunkX">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_IxpZNNz_EeeDr98zeVYnFw" name="chunkZ">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_I0nNoNz_EeeDr98zeVYnFw" name="genEnd" visibility="private">
+              <ownedParameter xmi:id="_I0nNodz_EeeDr98zeVYnFw" name="world" type="_IsM4hdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_I0nNotz_EeeDr98zeVYnFw" name="random" type="_IsOGotz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_I0nNo9z_EeeDr98zeVYnFw" name="chunkX">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I0nNpNz_EeeDr98zeVYnFw" name="chunkZ">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_I5vlQNz_EeeDr98zeVYnFw" name="addOreSpawn" visibility="private">
+              <ownedParameter xmi:id="_I5vlQdz_EeeDr98zeVYnFw" name="blockState" type="_IsLqYdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_I5vlQtz_EeeDr98zeVYnFw" name="world" type="_IsM4hdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_I5vlQ9z_EeeDr98zeVYnFw" name="random" type="_IsOGotz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_I5vlRNz_EeeDr98zeVYnFw" name="blockXpos">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlRdz_EeeDr98zeVYnFw" name="blockZpos">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlRtz_EeeDr98zeVYnFw" name="maxX">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlR9z_EeeDr98zeVYnFw" name="maxZ">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlSNz_EeeDr98zeVYnFw" name="maxVeinSize">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlSdz_EeeDr98zeVYnFw" name="chance">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlStz_EeeDr98zeVYnFw" name="minY">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlS9z_EeeDr98zeVYnFw" name="maxY">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I5vlTNz_EeeDr98zeVYnFw" name="blockToSpawnIn" type="_IsLDU9z_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHGr0Nz_EeeDr98zeVYnFw" name="BohrBlockGen_base" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsLDUtz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHGr0dz_EeeDr98zeVYnFw" name="BohrBlockGen_Handlers" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IapOctz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHGr0tz_EeeDr98zeVYnFw" name="BohrBlockGen_state" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsLqYNz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHHS4Nz_EeeDr98zeVYnFw" name="BohrBlockGen_pattern" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsMRcNz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHHS4dz_EeeDr98zeVYnFw" name="BohrBlockGen_init" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_Ie4OMdz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHHS4tz_EeeDr98zeVYnFw" name="BohrBlockGen_math" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsM4gdz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHH58Nz_EeeDr98zeVYnFw" name="BohrBlockGen_world" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsM4hNz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHH58dz_EeeDr98zeVYnFw" name="BohrBlockGen_chunk" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsM4h9z_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHH58tz_EeeDr98zeVYnFw" name="BohrBlockGen_feature" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsNfk9z_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHH589z_EeeDr98zeVYnFw" name="BohrBlockGen_common" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IcdzY9z_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHIhANz_EeeDr98zeVYnFw" name="BohrBlockGen_util" client="_IbHIgNz_EeeDr98zeVYnFw" supplier="_IsOGodz_EeeDr98zeVYnFw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IbQScNz_EeeDr98zeVYnFw" name="Examples">
+          <packagedElement xmi:type="uml:Class" xmi:id="_IbUj4Nz_EeeDr98zeVYnFw" name="AgoldenAppleMod" visibility="public">
+            <eAnnotations xmi:id="_IbUj4dz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+              <details xmi:id="_IbUj4tz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 8/5/17.&#xA;"/>
+            </eAnnotations>
+            <elementImport xmi:id="_I6M4QNz_EeeDr98zeVYnFw" importedElement="_IsMRc9z_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I6NfUNz_EeeDr98zeVYnFw" importedElement="_Ikz3ENz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I6NfUdz_EeeDr98zeVYnFw" importedElement="_Ik0eINz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I6OGYNz_EeeDr98zeVYnFw" importedElement="_IcdzZNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I6OGYdz_EeeDr98zeVYnFw" importedElement="_IcfBgtz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I6OtcNz_EeeDr98zeVYnFw" importedElement="_Icg2sdz_EeeDr98zeVYnFw" visibility="private"/>
+            <ownedAttribute xmi:id="_I6PUgNz_EeeDr98zeVYnFw" name="MODID" visibility="public" isLeaf="true" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_I6P7kNz_EeeDr98zeVYnFw" name="" value="&quot;agoldenapplemod&quot;">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_I6QioNz_EeeDr98zeVYnFw" name="VERSION" visibility="public" isLeaf="true" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_I6RJsNz_EeeDr98zeVYnFw" name="" value="&quot;1&quot;">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_I7XV4Nz_EeeDr98zeVYnFw" name="init" visibility="public">
+              <ownedParameter xmi:id="_I7XV4dz_EeeDr98zeVYnFw" name="event" type="_IcfBgtz_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHIhAdz_EeeDr98zeVYnFw" name="Examples_init" client="_IbQScNz_EeeDr98zeVYnFw" supplier="_Ie4OMdz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHJIENz_EeeDr98zeVYnFw" name="Examples_item" client="_IbQScNz_EeeDr98zeVYnFw" supplier="_Ie41QNz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHJIEdz_EeeDr98zeVYnFw" name="Examples_common" client="_IbQScNz_EeeDr98zeVYnFw" supplier="_IcdzY9z_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHJIEtz_EeeDr98zeVYnFw" name="Examples_event" client="_IbQScNz_EeeDr98zeVYnFw" supplier="_IcfBgdz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHJIE9z_EeeDr98zeVYnFw" name="Examples_registry" client="_IbQScNz_EeeDr98zeVYnFw" supplier="_Icg2sNz_EeeDr98zeVYnFw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IbUj49z_EeeDr98zeVYnFw" name="items">
+          <packagedElement xmi:type="uml:Class" xmi:id="_IbXAINz_EeeDr98zeVYnFw" name="BohrBlock" visibility="public">
+            <eAnnotations xmi:id="_IbXAIdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+              <details xmi:id="_IbXAItz_EeeDr98zeVYnFw" key="documentation" value=" Created by james on 5/8/17.&#xA;"/>
+            </eAnnotations>
+            <elementImport xmi:id="_I8PfoNz_EeeDr98zeVYnFw" importedElement="_IavVENz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I8Pfodz_EeeDr98zeVYnFw" importedElement="_Ihlj8dz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I8QGsNz_EeeDr98zeVYnFw" importedElement="_IiN2ENz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I8QGsdz_EeeDr98zeVYnFw" importedElement="_IsLqYdz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I8QtwNz_EeeDr98zeVYnFw" importedElement="_Ifbn0dz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I8Qtwdz_EeeDr98zeVYnFw" importedElement="_Ifbn09z_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_I8RU0Nz_EeeDr98zeVYnFw" importedElement="_IsOGotz_EeeDr98zeVYnFw" visibility="private"/>
+            <generalization xmi:id="_I8O4kNz_EeeDr98zeVYnFw" general="_Ihlj8dz_EeeDr98zeVYnFw"/>
+            <ownedOperation xmi:id="_I-F5wNz_EeeDr98zeVYnFw" name="BohrBlock" visibility="public">
+              <ownedParameter xmi:id="_I-F5wdz_EeeDr98zeVYnFw" name="mat" type="_IiN2ENz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_I-F5wtz_EeeDr98zeVYnFw" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I-F5w9z_EeeDr98zeVYnFw" name="locationTab" type="_Ifbn0dz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_I-F5xNz_EeeDr98zeVYnFw" name="hard">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I-F5xdz_EeeDr98zeVYnFw" name="swings">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I-F5xtz_EeeDr98zeVYnFw" name="numGivn">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_I-F5x9z_EeeDr98zeVYnFw" name="tool">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JC7WcNz_EeeDr98zeVYnFw" name="getItemDropped" visibility="public">
+              <eAnnotations xmi:id="_JC7Wcdz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_JC7Wctz_EeeDr98zeVYnFw" key="documentation" value=" Get the Item that this Block should drop when harvested.&#xA; "/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_JC7Wc9z_EeeDr98zeVYnFw" name="state" type="_IsLqYdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_JC7WdNz_EeeDr98zeVYnFw" name="rand" type="_IsOGotz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_JC7Wddz_EeeDr98zeVYnFw" name="fortune">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JC7Wdtz_EeeDr98zeVYnFw" type="_Ifbn09z_EeeDr98zeVYnFw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_JEyXoNz_EeeDr98zeVYnFw" name="quantityDropped" visibility="public">
+              <eAnnotations xmi:id="_JEy-sNz_EeeDr98zeVYnFw" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+                <details xmi:id="_JEy-sdz_EeeDr98zeVYnFw" key="documentation" value=" State and fortune sensitive version, this replaces the old (int meta, Random rand)&#xA; version in 1.1.&#xA; @param state Current state&#xA; @param fortune Current item fortune level&#xA; @param random Random number generator&#xA; @return The number of items to drop&#xA; "/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_JEy-stz_EeeDr98zeVYnFw" name="state" type="_IsLqYdz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_JEy-s9z_EeeDr98zeVYnFw" name="fortune">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_JEy-tNz_EeeDr98zeVYnFw" name="random" type="_IsOGotz_EeeDr98zeVYnFw"/>
+              <ownedParameter xmi:id="_JEy-tdz_EeeDr98zeVYnFw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHJvINz_EeeDr98zeVYnFw" name="items_Handlers" client="_IbUj49z_EeeDr98zeVYnFw" supplier="_IapOctz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHJvIdz_EeeDr98zeVYnFw" name="items_block" client="_IbUj49z_EeeDr98zeVYnFw" supplier="_Ihlj8Nz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHKWMNz_EeeDr98zeVYnFw" name="items_material" client="_IbUj49z_EeeDr98zeVYnFw" supplier="_IiNPAtz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHKWMdz_EeeDr98zeVYnFw" name="items_state" client="_IbUj49z_EeeDr98zeVYnFw" supplier="_IsLqYNz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHKWMtz_EeeDr98zeVYnFw" name="items_creativetab" client="_IbUj49z_EeeDr98zeVYnFw" supplier="_Ifbn0Nz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHK9QNz_EeeDr98zeVYnFw" name="items_item" client="_IbUj49z_EeeDr98zeVYnFw" supplier="_Ie41QNz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHK9Qdz_EeeDr98zeVYnFw" name="items_util" client="_IbUj49z_EeeDr98zeVYnFw" supplier="_IsOGodz_EeeDr98zeVYnFw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IbXAI9z_EeeDr98zeVYnFw" name="mod1">
+          <packagedElement xmi:type="uml:Class" xmi:id="_IbY1UNz_EeeDr98zeVYnFw" name="Mod1" visibility="public">
+            <elementImport xmi:id="_JFMnUNz_EeeDr98zeVYnFw" importedElement="_IsMRc9z_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_JFNOYNz_EeeDr98zeVYnFw" importedElement="_IcdzZNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_JFN1cNz_EeeDr98zeVYnFw" importedElement="_IceacNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_JFN1cdz_EeeDr98zeVYnFw" importedElement="_IcfBgtz_EeeDr98zeVYnFw" visibility="private"/>
+            <ownedAttribute xmi:id="_JFPDkNz_EeeDr98zeVYnFw" name="MODID" visibility="public" isLeaf="true" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_JFPDkdz_EeeDr98zeVYnFw" name="" value="&quot;mod1&quot;">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_JFPqoNz_EeeDr98zeVYnFw" name="VERSION" visibility="public" isLeaf="true" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_JFQRsNz_EeeDr98zeVYnFw" name="" value="&quot;1&quot;">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_JF8OMNz_EeeDr98zeVYnFw" name="init" visibility="public">
+              <ownedParameter xmi:id="_JF8OMdz_EeeDr98zeVYnFw" name="event" type="_IcfBgtz_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHK9Qtz_EeeDr98zeVYnFw" name="mod1_init" client="_IbXAI9z_EeeDr98zeVYnFw" supplier="_Ie4OMdz_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHLkUNz_EeeDr98zeVYnFw" name="mod1_common" client="_IbXAI9z_EeeDr98zeVYnFw" supplier="_IcdzY9z_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHLkUdz_EeeDr98zeVYnFw" name="mod1_event" client="_IbXAI9z_EeeDr98zeVYnFw" supplier="_IcfBgdz_EeeDr98zeVYnFw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IbY1Udz_EeeDr98zeVYnFw" name="recipe">
+          <packagedElement xmi:type="uml:Class" xmi:id="_IbaqgNz_EeeDr98zeVYnFw" name="Recipe" visibility="public">
+            <elementImport xmi:id="_JGK3sNz_EeeDr98zeVYnFw" importedElement="_IcdzZNz_EeeDr98zeVYnFw" visibility="private"/>
+            <elementImport xmi:id="_JGLewNz_EeeDr98zeVYnFw" importedElement="_IcfBgtz_EeeDr98zeVYnFw" visibility="private"/>
+            <ownedAttribute xmi:id="_JGMF0Nz_EeeDr98zeVYnFw" name="MODID" visibility="public" isLeaf="true" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_JGMs4Nz_EeeDr98zeVYnFw" name="" value="&quot;recepie&quot;">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_JGN7ANz_EeeDr98zeVYnFw" name="VERSION" visibility="public" isLeaf="true" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_JGOiENz_EeeDr98zeVYnFw" name="" value="&quot;1&quot;">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_JG0_ANz_EeeDr98zeVYnFw" name="init" visibility="public">
+              <ownedParameter xmi:id="_JG0_Adz_EeeDr98zeVYnFw" name="event" type="_IcfBgtz_EeeDr98zeVYnFw"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHMLYNz_EeeDr98zeVYnFw" name="recipe_common" client="_IbY1Udz_EeeDr98zeVYnFw" supplier="_IcdzY9z_EeeDr98zeVYnFw"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_JHMLYdz_EeeDr98zeVYnFw" name="recipe_event" client="_IbY1Udz_EeeDr98zeVYnFw" supplier="_IcfBgdz_EeeDr98zeVYnFw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_IsLDUNz_EeeDr98zeVYnFw" name="google">
+      <packagedElement xmi:type="uml:Package" xmi:id="_IsLDUdz_EeeDr98zeVYnFw" name="common">
+        <packagedElement xmi:type="uml:Package" xmi:id="_IsLDUtz_EeeDr98zeVYnFw" name="base">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IsLDU9z_EeeDr98zeVYnFw" name="Predicate"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IcdzYNz_EeeDr98zeVYnFw" name="net">
+    <packagedElement xmi:type="uml:Package" xmi:id="_IcdzYdz_EeeDr98zeVYnFw" name="minecraftforge">
+      <packagedElement xmi:type="uml:Package" xmi:id="_IcdzYtz_EeeDr98zeVYnFw" name="fml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_IcdzY9z_EeeDr98zeVYnFw" name="common">
+          <packagedElement xmi:type="uml:Package" xmi:id="_IcfBgdz_EeeDr98zeVYnFw" name="event">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_IcfBgtz_EeeDr98zeVYnFw" name="FMLInitializationEvent"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_Icfokdz_EeeDr98zeVYnFw" name="FMLPostInitializationEvent"/>
+            <packagedElement xmi:type="uml:DataType" xmi:id="_IcgPoNz_EeeDr98zeVYnFw" name="FMLPreInitializationEvent"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IcdzZNz_EeeDr98zeVYnFw" name="Mod"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IceacNz_EeeDr98zeVYnFw" name="EventHandler"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Icg2sNz_EeeDr98zeVYnFw" name="registry">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_Icg2sdz_EeeDr98zeVYnFw" name="GameRegistry"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IsKcQNz_EeeDr98zeVYnFw" name="IWorldGenerator"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ie5cUNz_EeeDr98zeVYnFw" name="common">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ie5cUdz_EeeDr98zeVYnFw" name="util">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_Ie5cUtz_EeeDr98zeVYnFw" name="EnumHelper"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ie4OMNz_EeeDr98zeVYnFw" name="minecraft">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ie4OMdz_EeeDr98zeVYnFw" name="init">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ie4OMtz_EeeDr98zeVYnFw" name="SoundEvents"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ikz3ENz_EeeDr98zeVYnFw" name="Items"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IsMRc9z_EeeDr98zeVYnFw" name="Blocks"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ie41QNz_EeeDr98zeVYnFw" name="item">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ie41Qdz_EeeDr98zeVYnFw" name="Item">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_Ie41Qtz_EeeDr98zeVYnFw" name="ToolMaterial"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ie41RNz_EeeDr98zeVYnFw" name="ItemArmor">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_Ie41Rdz_EeeDr98zeVYnFw" name="ArmorMaterial"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ifbn09z_EeeDr98zeVYnFw" name="Item"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IhmLANz_EeeDr98zeVYnFw" name="ItemBlock"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ik0eINz_EeeDr98zeVYnFw" name="ItemStack"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_InmFUNz_EeeDr98zeVYnFw" name="ItemPickaxe"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Inrk4Nz_EeeDr98zeVYnFw" name="ToolMaterial"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IoO-gNz_EeeDr98zeVYnFw" name="ItemSword"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IpJkgNz_EeeDr98zeVYnFw" name="ItemArmor"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IpVxwNz_EeeDr98zeVYnFw" name="ArmorMaterial"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ip5ycNz_EeeDr98zeVYnFw" name="ItemAxe"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IqxVINz_EeeDr98zeVYnFw" name="ItemSpade"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IrVV0Nz_EeeDr98zeVYnFw" name="ItemHoe"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_IfaZsdz_EeeDr98zeVYnFw" name="client">
+        <packagedElement xmi:type="uml:Package" xmi:id="_IfbAwNz_EeeDr98zeVYnFw" name="renderer">
+          <packagedElement xmi:type="uml:Package" xmi:id="_IfbAwdz_EeeDr98zeVYnFw" name="block">
+            <packagedElement xmi:type="uml:Package" xmi:id="_IfbAwtz_EeeDr98zeVYnFw" name="model">
+              <packagedElement xmi:type="uml:DataType" xmi:id="_IfbAw9z_EeeDr98zeVYnFw" name="ModelResourceLocation"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IfaZstz_EeeDr98zeVYnFw" name="Minecraft"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ifbn0Nz_EeeDr98zeVYnFw" name="creativetab">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ifbn0dz_EeeDr98zeVYnFw" name="CreativeTabs"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ihlj8Nz_EeeDr98zeVYnFw" name="block">
+        <packagedElement xmi:type="uml:Package" xmi:id="_IiNPAtz_EeeDr98zeVYnFw" name="material">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IiN2ENz_EeeDr98zeVYnFw" name="Material"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ihlj8dz_EeeDr98zeVYnFw" name="Block"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IsLqYNz_EeeDr98zeVYnFw" name="state">
+          <packagedElement xmi:type="uml:Package" xmi:id="_IsMRcNz_EeeDr98zeVYnFw" name="pattern">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_IsMRcdz_EeeDr98zeVYnFw" name="BlockMatcher"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IsLqYdz_EeeDr98zeVYnFw" name="IBlockState"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_IlWCkNz_EeeDr98zeVYnFw" name="inventory">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IlWCkdz_EeeDr98zeVYnFw" name="EntityEquipmentSlot"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_IsM4gNz_EeeDr98zeVYnFw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_IsM4gdz_EeeDr98zeVYnFw" name="math">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IsM4gtz_EeeDr98zeVYnFw" name="BlockPos"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_IsM4hNz_EeeDr98zeVYnFw" name="world">
+        <packagedElement xmi:type="uml:Package" xmi:id="_IsM4h9z_EeeDr98zeVYnFw" name="chunk">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IsM4iNz_EeeDr98zeVYnFw" name="IChunkGenerator"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_IsNfkNz_EeeDr98zeVYnFw" name="IChunkProvider"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IsM4hdz_EeeDr98zeVYnFw" name="World"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_IsNfktz_EeeDr98zeVYnFw" name="gen">
+          <packagedElement xmi:type="uml:Package" xmi:id="_IsNfk9z_EeeDr98zeVYnFw" name="feature">
+            <packagedElement xmi:type="uml:DataType" xmi:id="_IsNflNz_EeeDr98zeVYnFw" name="WorldGenMinable"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IsOGoNz_EeeDr98zeVYnFw" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_IsOGodz_EeeDr98zeVYnFw" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_IsOGotz_EeeDr98zeVYnFw" name="Random"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
