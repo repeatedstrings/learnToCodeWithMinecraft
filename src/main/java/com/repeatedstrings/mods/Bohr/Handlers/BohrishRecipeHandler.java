@@ -16,41 +16,41 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class BohrishRecipeHandler {
 
     public static void init() {
-        GameRegistry.addSmelting(BohrishHandler.bohrOre, new ItemStack(BohrishHandler.bohrite), 1);
+        GameRegistry.addSmelting(BohrishItemHandler.bohrOre, new ItemStack(BohrishItemHandler.bohrite), 1);
 
-        GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrPickaxe,1),
+        GameRegistry.addRecipe(new ItemStack(BohrishItemHandler.bohrPickaxe,1),
                 "XXX",
                 " Y ",
                 " Y ",
-                'X', BohrishHandler.bohrite,
+                'X', BohrishItemHandler.bohrite,
                 'Y', Items.STICK);
 
-        GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrShovel,1),
+        GameRegistry.addRecipe(new ItemStack(BohrishItemHandler.bohrShovel,1),
                 " X ",
                 " Y ",
                 " Y ",
-                'X', BohrishHandler.bohrite,
+                'X', BohrishItemHandler.bohrite,
                 'Y', Items.STICK);
 
-        GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrHoe,1),
+        GameRegistry.addRecipe(new ItemStack(BohrishItemHandler.bohrHoe,1),
                 "XX ",
                 " Y ",
                 " Y ",
-                'X', BohrishHandler.bohrite,
+                'X', BohrishItemHandler.bohrite,
                 'Y', Items.STICK);
 
-        GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrAxe,1),
+        GameRegistry.addRecipe(new ItemStack(BohrishItemHandler.bohrAxe,1),
                 "XX ",
                 "XY ",
                 " Y ",
-                'X', BohrishHandler.bohrite,
+                'X', BohrishItemHandler.bohrite,
                 'Y', Items.STICK);
 
-        GameRegistry.addRecipe(new ItemStack(BohrishHandler.bohrSword,1),
+        GameRegistry.addRecipe(new ItemStack(BohrishItemHandler.bohrSword,1),
                 " X ",
                 " X ",
                 " Y ",
-                'X', BohrishHandler.bohrite,
+                'X', BohrishItemHandler.bohrite,
                 'Y', Items.STICK);
     }
 }

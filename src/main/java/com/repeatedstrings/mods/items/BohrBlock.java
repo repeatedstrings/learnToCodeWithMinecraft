@@ -1,6 +1,6 @@
 package com.repeatedstrings.mods.items;
 
-import com.repeatedstrings.mods.Bohr.Handlers.BohrishHandler;
+import com.repeatedstrings.mods.Bohr.Handlers.BohrishItemHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -35,7 +35,7 @@ public class BohrBlock extends Block {
 
     @Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-        return BohrishHandler.bohrOre;
+        return BohrishItemHandler.bohrOre;
 //        return super.getItemDropped(state, rand, fortune);
     }
 

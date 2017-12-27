@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 /**
  * Created by james on 5/6/17.
  */
-public class BohrishHandler {
+public class BohrishItemHandler {
     public static Item bohrOre;
     public static Item bohrite;
     public static Item bohrAxe;
