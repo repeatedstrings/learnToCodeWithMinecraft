@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 /**
  * Created by james on 5/8/17.
  */
-public class BohrBlockHandler {
+public class BohrBlockHandler implements BohrHandlerInterface {
     public static Block bohrBlock;
     public static ItemBlock aBohrBlock;
 

@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 /**
  * Created by james on 5/19/17.
  */
-public class BohrishArmorHandler {
+public class BohrishArmorHandler implements BohrHandlerInterface {
 
     public static Item bohrHelm;
     public static Item bohrChest;
