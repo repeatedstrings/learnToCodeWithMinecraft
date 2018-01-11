@@ -5,7 +5,7 @@ import com.repeatedstrings.mods.Bohr.Handlers.BohrBlockHandler;
 import com.repeatedstrings.mods.Bohr.Handlers.BohrishArmorHandler;
 import com.repeatedstrings.mods.Bohr.Handlers.BohrishItemHandler;
 import com.repeatedstrings.mods.Bohr.Handlers.BohrishRecipeHandler;
-import com.repeatedstrings.mods.BohrBlockGen.PlaceThatBohrBlock;
+import com.repeatedstrings.mods.Bohr.Handlers.BohrBlockinatorHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -34,7 +34,7 @@ public class BohrMod {
         BohrBlockHandler.init();
         BohrBlockHandler.register();
 
-        GameRegistry.registerWorldGenerator(new PlaceThatBohrBlock(),0);
+        GameRegistry.registerWorldGenerator(new BohrBlockinatorHandler(),0);
 
         BohrishRecipeHandler.init();
 

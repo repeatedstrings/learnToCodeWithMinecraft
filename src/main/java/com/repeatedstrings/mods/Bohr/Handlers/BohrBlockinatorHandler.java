@@ -1,4 +1,4 @@
-package com.repeatedstrings.mods.BohrBlockGen;
+package com.repeatedstrings.mods.Bohr.Handlers;
 //watch the import, needs to be google common base
 import com.google.common.base.Predicate;
 import com.repeatedstrings.mods.Bohr.Handlers.BohrBlockHandler;
@@ -17,7 +17,7 @@ import java.util.Random;
 /**
  * Created by james on 5/13/17.
  */
-public class PlaceThatBohrBlock implements IWorldGenerator {
+public class BohrBlockinatorHandler implements IWorldGenerator {
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {

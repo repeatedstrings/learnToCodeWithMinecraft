@@ -1,6 +1,6 @@
 package com.repeatedstrings.mods.Bohr.Handlers;
 
-import com.repeatedstrings.mods.items.BohrBlock;
+import com.repeatedstrings.mods.Bohr.Items.BohrBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
